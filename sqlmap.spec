@@ -7,12 +7,12 @@
 
 Name:           sqlmap
 Version:        1.5.11
-Release:        master
+Release:        dev
 Summary:        Automatic SQL injection and database takeover tool
 Group:          Security
 License:        GPLv3
 URL:            http://sqlmap.org/
-Source0:        %{name}-%{version}.tar.gz
+Source0:        https://github.com/sqlmapproject/sqlmap/tarball/master/sqlmap-1.3.4.44.tar.gz
 BuildArch:      noarch
 Requires:       python3-requests
 
@@ -61,6 +61,6 @@ ln -s ../../..%{_sysconfdir}/sqlmap.conf .
 %config(noreplace) %{_sysconfdir}/%{name}.conf
 
 %changelog
-* Fri Nov 12 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.11-master
+* Fri Nov 12 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.11-dev
 - new package
 
