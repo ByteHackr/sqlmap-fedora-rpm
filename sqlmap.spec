@@ -61,6 +61,6 @@ ln -s ../../..%{_sysconfdir}/sqlmap.conf .
 %config(noreplace) %{_sysconfdir}/%{name}.conf
 
 %changelog
-* Fri Nov 12 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.12-dev
+* Fri Dec 03 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.12-dev
 - new package
 
