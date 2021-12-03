@@ -7,7 +7,7 @@
 
 Name:           sqlmap
 Version:        1.5.12
-Release:        dev
+Release:        1%{?dist}
 Summary:        Automatic SQL injection and database takeover tool
 Group:          Security
 License:        GPLv3
