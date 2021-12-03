@@ -12,7 +12,8 @@ Summary:        Automatic SQL injection and database takeover tool
 Group:          Security
 License:        GPLv3
 URL:            http://sqlmap.org/
-Source0:        https://github.com/sqlmapproject/sqlmap/archive/refs/tags/%{name}-%{version}.tar.gz
+Source0:        https://github.com/sqlmapproject/sqlmap/archive/refs/tags/%{version}.tar.gz
+Source1:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 Requires:       python3-requests
 
