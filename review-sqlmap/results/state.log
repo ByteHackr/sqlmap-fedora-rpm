@@ -1,0 +1,54 @@
+2021-12-03 18:26:28,712 - Mock Version: 2.15
+2021-12-03 18:26:28,956 - Finish: chroot init
+2021-12-03 18:26:28,996 - Start: chroot ['rpm --eval "%{_libdir}"']
+2021-12-03 18:26:29,135 - Finish: chroot ['rpm --eval "%{_libdir}"']
+2021-12-03 18:26:29,890 - Mock Version: 2.15
+2021-12-03 18:26:30,094 - Finish: chroot init
+2021-12-03 18:26:30,139 - Start: chroot ['rm -rf $(rpm --eval %_builddir)/*']
+2021-12-03 18:26:30,293 - Finish: chroot ['rm -rf $(rpm --eval %_builddir)/*']
+2021-12-03 18:26:31,126 - Mock Version: 2.15
+2021-12-03 18:26:32,065 - Finish: chroot init
+2021-12-03 18:26:32,066 - Start: build phase for sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:32,067 - Start: build setup for sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:34,748 - Finish: build setup for sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:34,749 - Start: Outputting list of installed packages
+2021-12-03 18:26:34,805 - Finish: Outputting list of installed packages
+2021-12-03 18:26:34,806 - Start: rpmbuild sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:39,387 - Finish: rpmbuild sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:39,395 - Finish: build phase for sqlmap-1.5.12-dev.src.rpm
+2021-12-03 18:26:39,398 - Finish: run
+2021-12-03 18:26:40,185 - Mock Version: 2.15
+2021-12-03 18:26:40,442 - Finish: chroot init
+2021-12-03 18:26:40,503 - Start: chroot ['rpm --eval %_topdir']
+2021-12-03 18:26:40,619 - Finish: chroot ['rpm --eval %_topdir']
+2021-12-03 18:27:56,906 - Mock Version: 2.15
+2021-12-03 18:27:57,152 - Finish: chroot init
+2021-12-03 18:27:57,154 - Finish: run
+2021-12-03 18:27:57,854 - Mock Version: 2.15
+2021-12-03 18:27:58,049 - Finish: chroot init
+2021-12-03 18:27:58,083 - Start: chroot ['rpm -q sqlmap']
+2021-12-03 18:27:58,195 - Finish: chroot ['rpm -q sqlmap']
+2021-12-03 18:27:59,972 - Mock Version: 2.15
+2021-12-03 18:28:00,178 - Finish: chroot init
+2021-12-03 18:28:11,182 - Finish: run
+2021-12-03 18:28:12,528 - Mock Version: 2.15
+2021-12-03 18:28:12,971 - Finish: chroot init
+2021-12-03 18:28:12,973 - Finish: run
+2021-12-03 18:28:14,321 - Mock Version: 2.15
+2021-12-03 18:28:14,569 - Finish: chroot init
+2021-12-03 18:28:14,636 - Start: chroot ['rpm -q rpmlint']
+2021-12-03 18:28:14,868 - Finish: chroot ['rpm -q rpmlint']
+2021-12-03 18:28:17,207 - Mock Version: 2.15
+2021-12-03 18:28:17,457 - Finish: chroot init
+2021-12-03 18:29:21,970 - Finish: run
+2021-12-03 18:29:40,913 - Mock Version: 2.15
+2021-12-03 18:29:41,194 - Finish: chroot init
+2021-12-03 18:29:41,280 - Start: chroot ['rm -rf $(rpm --eval %_builddir)/*']
+2021-12-03 18:29:41,454 - Finish: chroot ['rm -rf $(rpm --eval %_builddir)/*']
+2021-12-03 18:29:43,346 - Mock Version: 2.15
+2021-12-03 18:29:43,558 - Finish: chroot init
+2021-12-03 18:29:43,566 - Finish: run
+2021-12-03 18:29:45,098 - Mock Version: 2.15
+2021-12-03 18:29:45,295 - Finish: chroot init
+2021-12-03 18:29:45,337 - Start: chroot ['rpm -i sqlmap-1.5.12-dev.src.rpm; rpmbuild --nodeps -bp $(rpm --eval %_specdir)/sqlmap.spec;chmod -R  go+r  $(rpm --eval %_builddir)/* || :']
+2021-12-03 18:29:45,891 - Finish: chroot ['rpm -i sqlmap-1.5.12-dev.src.rpm; rpmbuild --nodeps -bp $(rpm --eval %_specdir)/sqlmap.spec;chmod -R  go+r  $(rpm --eval %_builddir)/* || :']

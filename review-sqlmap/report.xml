@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<analysis>
+    <metadata>
+        <generator name="fedora-review" version="0.7.6" build="b083f91 2020-11-10 21:23:00 -0500"/>
+        <file given-path="sqlmap.spec">
+            <hash alg="sha224" hexdigest="ac52d5d3899cfbe28302f37f8455144a842a0f0cdde6dd0a2b1d630f"/>
+        </file>
+        <sut>
+            <source-rpm name="sqlmap" version="1.5.12" release="dev"/>
+        </sut>
+    </metadata>
+    <results>
+        <issue test-id="CheckHeaderFiles" severity="MUST">
+            <message>Header files in -devel subpackage, if present.</message>
+            <location>
+                <file given-path="sqlmap.spec"/>
+            </location>
+            <notes>sqlmap : /usr/share/sqlmap/extra/runcmd/src/runcmd/stdafx.h </notes>
+        </issue>
+        <issue test-id="CheckDistTag" severity="MUST">
+            <message>Dist tag is present.</message>
+            <location>
+                <file given-path="sqlmap.spec"/>
+            </location>
+        </issue>
+        <issue test-id="CheckLicensInDoc" severity="MUST">
+            <message>If (and only if) the source package includes the text of the license(s) in its own file, then that file, containing the text of the license(s) for the package is included in %license.</message>
+            <location>
+                <file given-path="sqlmap.spec"/>
+            </location>
+            <notes>License file LICENSE is not marked as %license</notes>
+        </issue>
+    </results>
+</analysis>

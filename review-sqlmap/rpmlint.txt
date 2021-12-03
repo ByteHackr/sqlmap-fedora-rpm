@@ -1,0 +1,3 @@
+Checking: sqlmap-1.5.12-dev.noarch.rpm
+          sqlmap-1.5.12-dev.src.rpm
+

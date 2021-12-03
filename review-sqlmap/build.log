@@ -1,0 +1,28 @@
+INFO: mock.py version 2.15 starting (python version = 3.10.0, NVR = mock-2.15-1.fc35)...
+Start: init plugins
+INFO: selinux enabled
+Finish: init plugins
+INFO: Signal handler active
+Start: run
+INFO: Start(/home/sandipan/Desktop/fedora/sqlmap-fedora-rpm/sqlmap-1.5.12-dev.src.rpm)  Config(fedora-rawhide-x86_64)
+Start: chroot init
+INFO: calling preinit hooks
+INFO: enabled root cache
+INFO: enabled package manager cache
+Start: cleaning package manager metadata
+Finish: cleaning package manager metadata
+INFO: enabled HW Info plugin
+Mock Version: 2.15
+INFO: Mock Version: 2.15
+Finish: chroot init
+Start: build phase for sqlmap-1.5.12-dev.src.rpm
+Start: build setup for sqlmap-1.5.12-dev.src.rpm
+Finish: build setup for sqlmap-1.5.12-dev.src.rpm
+Start: Outputting list of installed packages
+Finish: Outputting list of installed packages
+Start: rpmbuild sqlmap-1.5.12-dev.src.rpm
+Finish: rpmbuild sqlmap-1.5.12-dev.src.rpm
+Finish: build phase for sqlmap-1.5.12-dev.src.rpm
+INFO: Done(/home/sandipan/Desktop/fedora/sqlmap-fedora-rpm/sqlmap-1.5.12-dev.src.rpm) Config(fedora-rawhide-x86_64) 0 minutes 8 seconds
+INFO: Results and/or logs in: /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm/review-sqlmap/results
+Finish: run
