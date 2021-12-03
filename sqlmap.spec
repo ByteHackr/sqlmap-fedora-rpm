@@ -6,13 +6,13 @@
 %global __provides_exclude_from ^%{_datadir}/%{name}/udf/.*$
 
 Name:           sqlmap
-Version:        1.5.12
+Version:        1.5
 Release:        1%{?dist}
 Summary:        Automatic SQL injection and database takeover tool
 Group:          Security
 License:        GPLv3
 URL:            http://sqlmap.org/
-Source0:        https://github.com/sqlmapproject/sqlmap/tarball/master/sqlmapproject-sqlmap-1.5.12-0-g90b145e.tar.gz
+Source0:        https://github.com/sqlmapproject/sqlmap/archive/refs/tags/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 Requires:       python3-requests
 
@@ -26,7 +26,7 @@ the underlying file system and executing commands on the operating system
 via out-of-band connections.
 
 %prep
-%setup -q -n sqlmapproject-sqlmap-90b145e
+%setup -q -n sqlmap-1.5
 
 %install
 install -d -m 755 %{buildroot}%{_datadir}/%{name}
@@ -59,8 +59,8 @@ ln -s ../../..%{_sysconfdir}/sqlmap.conf .
 %{_datadir}/%{name}
 %{_bindir}/%{name}
 %config(noreplace) %{_sysconfdir}/%{name}.conf
-
+%license LICENSE
 %changelog
-* Fri Dec 03 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.12-dev
+* Fri Dec 03 2021 Sandipan Roy <bytehackr@fedoraproject.org> 1.5.12
 - new package
 
