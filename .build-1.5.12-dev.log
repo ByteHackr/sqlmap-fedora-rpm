@@ -1,6 +1,6 @@
 
-setting SOURCE_DATE_EPOCH=1636675200
-Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Twp04w
+setting SOURCE_DATE_EPOCH=1638489600
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.nuciy0
 + umask 022
 + cd /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm
 + cd /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm
@@ -14,7 +14,7 @@ Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.Twp04w
 + RPM_EC=0
 ++ jobs -p
 + exit 0
-Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.ppvtJy
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.EHpzSW
 + umask 022
 + cd /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm
 + '[' /home/sandipan/rpmbuild/BUILDROOT/sqlmap-1.5.12-dev.x86_64 '!=' / ']'
@@ -71,7 +71,7 @@ mangling shebang in /usr/bin/sqlmap from /bin/sh to #!/usr/bin/sh
 + /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
 + /usr/lib/rpm/redhat/brp-python-hardlink
 Processing files: sqlmap-1.5.12-dev.noarch
-Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.l7RHQ0
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.oxuvXr
 + umask 022
 + cd /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm
 + cd sqlmapproject-sqlmap-90b145e
@@ -90,7 +90,7 @@ Requires: /usr/bin/bash /usr/bin/python3 /usr/bin/sh
 Checking for unpackaged file(s): /usr/lib/rpm/check-files /home/sandipan/rpmbuild/BUILDROOT/sqlmap-1.5.12-dev.x86_64
 Wrote: /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm/sqlmap-1.5.12-dev.src.rpm
 Wrote: /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm/noarch/sqlmap-1.5.12-dev.noarch.rpm
-Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.dDO2pJ
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.77OHLM
 + umask 022
 + cd /home/sandipan/Desktop/fedora/sqlmap-fedora-rpm
 + cd sqlmapproject-sqlmap-90b145e
